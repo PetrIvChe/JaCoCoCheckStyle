@@ -59,21 +59,16 @@
                         </goals>
                         <configuration>
                             <rules>
-                                <rule>
+                                <!--rule>
                                     <limits>
                                         <limit>
                                             <counter>INSTRUCTION</counter>
                                             <value>COVEREDRATIO</value>
-                                            <minimum>100%</minimum>
+                                            <minimum>93%</minimum>
                                         </limit>
                                     </limits>
-                                </rule>
+                                </rule-->
                                 <rule>
-                                    <excludes>
-                                        <exclude>
-
-                                        </exclude>
-                                    </excludes>
                                     <limits>
                                         <limit>
                                             <counter>LINE</counter>
@@ -82,15 +77,15 @@
                                         </limit>
                                     </limits>
                                 </rule>
-                                <rule>
+                                <!--rule>
                                     <limits>
                                         <limit>
                                             <counter>BRANCH</counter>
                                             <value>COVEREDRATIO</value>
-                                            <minimum>100%</minimum>
+                                            <minimum>75%</minimum>
                                         </limit>
                                     </limits>
-                                </rule>
+                                </rule-->
                             </rules>
                         </configuration>
                     </execution>
