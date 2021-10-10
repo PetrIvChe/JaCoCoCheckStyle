@@ -59,7 +59,7 @@
                         </goals>
                         <configuration>
                             <rules>
-                                <!--rule>
+                                <rule>
                                     <limits>
                                         <limit>
                                             <counter>INSTRUCTION</counter>
@@ -67,7 +67,7 @@
                                             <minimum>100%</minimum>
                                         </limit>
                                     </limits>
-                                </rule-->
+                                </rule>
                                 <rule>
                                     <excludes>
                                         <exclude>
@@ -82,7 +82,7 @@
                                         </limit>
                                     </limits>
                                 </rule>
-                                <!--rule>
+                                <rule>
                                     <limits>
                                         <limit>
                                             <counter>BRANCH</counter>
@@ -90,7 +90,7 @@
                                             <minimum>100%</minimum>
                                         </limit>
                                     </limits>
-                                </rule-->
+                                </rule>
                             </rules>
                         </configuration>
                     </execution>
